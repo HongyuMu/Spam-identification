@@ -5,4 +5,4 @@ In each part b-e, we applied a logistic regression model, linear and and quadrat
 The table shows the conclusion.
 
 This project is completed by 3 UCSD students as their final project to Math189:
-Hongyu Mu; Chenxi Li; Zening Wang
+Hongyu Mu; Chenxi Li; Zening Wang.
