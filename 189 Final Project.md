@@ -50,21 +50,21 @@
 
 ![image-20230320165247607](./images/image-20230320165247607.png)
 
-![image-20230320165309814](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230320165309814.png)
+![image-20230320165309814](./images/image-20230320165309814.png)
 
 ```r
 > vis_plots(train_log)
 ```
 
-![image-20230320165406202](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230320165406202.png)
+![image-20230320165406202](./images/image-20230320165406202.png)
 
 ```r
 > vis_plots(test_log)
 ```
 
-![image-20230320165518799](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230320165518799.png)
+![image-20230320165518799](./images/image-20230320165518799.png)
 
-![image-20230320165537844](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230320165537844.png)
+![image-20230320165537844](./images/image-20230320165537844.png)
 
 ```r
 > par(mfrow = c(2,3))
@@ -73,25 +73,25 @@
 + }
 ```
 
-![image-20230321151835034](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230321151835034.png)
+![image-20230321151835034](./images/image-20230321151835034.png)
 
-![image-20230321151942029](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230321151942029.png)
+![image-20230321151942029](./images/image-20230321151942029.png)
 
-![image-20230321152028173](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230321152028173.png)
+![image-20230321152028173](./images/image-20230321152028173.png)
 
-![image-20230321152102998](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230321152102998.png)
+![image-20230321152102998](./images/image-20230321152102998.png)
 
-![image-20230321152136376](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230321152136376.png)
+![image-20230321152136376](./images/image-20230321152136376.png)
 
-![image-20230321152211762](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230321152211762.png)
+![image-20230321152211762](./images/image-20230321152211762.png)
 
-![image-20230321152307245](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230321152307245.png)
+![image-20230321152307245](./images/image-20230321152307245.png)
 
-![image-20230321152336718](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230321152336718.png)
+![image-20230321152336718](./images/image-20230321152336718.png)
 
-![image-20230321152414213](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230321152414213.png)
+![image-20230321152414213](./images/image-20230321152414213.png)
 
-![image-20230321152449203](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230321152449203.png)
+![image-20230321152449203](./images/image-20230321152449203.png)
 
 #### Part (b)
 
@@ -722,7 +722,7 @@ According to the results above, the linear SVM model on both the log transformed
 > plot(cv_train$size, cv_train$dev, type = "b", xlab = "Size", ylab = "CV MSE", col = "red")
 ```
 
-![image-20230320230541207](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230320230541207.png)
+![image-20230320230541207](./images/image-20230320230541207.png)
 
 ```r
 > cv.size <- cv_train$size[which.min(cv_train$dev)]
@@ -731,7 +731,7 @@ According to the results above, the linear SVM model on both the log transformed
 > text(prune_train, pretty = 0)
 ```
 
-![image-20230320231039111](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230320231039111.png)
+![image-20230320231039111](./images/image-20230320231039111.png)
 
 
 
