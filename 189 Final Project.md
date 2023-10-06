@@ -42,7 +42,7 @@
 > vis_plots(train_std)
 ```
 
-![image-20230320164731688](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230320164731688.png)
+![image-20230320164731688](./images/image-20230320164731688.png)
 
 ```r
 > vis_plots(test_std)
