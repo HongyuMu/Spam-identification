@@ -48,7 +48,7 @@
 > vis_plots(test_std)
 ```
 
-![image-20230320165247607](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230320165247607.png)
+![image-20230320165247607](./images/image-20230320165247607.png)
 
 ![image-20230320165309814](C:\Users\dell\AppData\Roaming\Typora\typora-user-images\image-20230320165309814.png)
 
